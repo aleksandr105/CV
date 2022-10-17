@@ -1,11 +1,37 @@
 body {
     font-family: 'Montserrat', sans-serif;
     background-color: #E5E5E5;
+    margin: 0;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    -webkit-padding-start: 0;
+    padding-inline-start: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
 /* my content */
 .my-container-info{
-    padding: 100px 90px; 
+    padding: 70px 70px; 
 }
 
 .front-deloveloper {
@@ -34,9 +60,21 @@ body {
    color: #595959; 
     }
 
-.my-projects-sections {
-    margin: 0 0 50px 0; 
+.title-summary {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 27px;
+    color: black;
+    margin-bottom: 25px;
+}
 
+.my-projects-sections {
+padding: 45px 0 0 0;
+}
+
+.my-work-experience{
+    padding-top: 50px;
 }
 
 .my-work-experience-compani{
@@ -87,7 +125,6 @@ padding-left: 15px;
     font-size: 22px;
     line-height: 27px;
     color: black;
-    padding: 45px 0 0 0;
 }
 
 .my-enumeration{
@@ -107,7 +144,6 @@ padding-left: 15px;
     font-size: 14px;
     line-height: 24px;
     color: #595959;
-    margin-left: 5px;
 }   
 
 .project1-text1{
@@ -140,44 +176,111 @@ padding-left: 15px;
 /* sidebar sections */
 .sidbar-sections{
     background-color: #1E2939;
-    width: 370px;
-    padding: 40px 0;
+    width: 380px;
+    padding-top: 20px;
 
 }
 
 .my-tech-skils,
 .my-soft-skils,
 .my-contacts {
-    margin: 50px 0 0 40px;   
+    padding: 30px 0 0 20px;   
 }
 
-.sidebar-contacts,
+.sidebar-tech-skils,
 .sidebar-soft-skils,
-.sidebar-tech-skils{
+.sidebar-contacts{
     font-style: normal;
     font-weight: bold;
     font-size: 22px;
     line-height: 27px;
-    margin-bottom: 10px;
     color: #fff;
+    margin-bottom: 10px;
+}
+
+.telephone{
+display: flex;
+align-items: center;
+margin-bottom: 8px;
+}
+
+.telephone::before{
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    width: 23px;
+    height: 23px;
+    border-radius:5px;
+    display: inline-block;
+    background-color: aliceblue;
+    background-image: url(./svg/icons8-сотовый-телефон-48.png);
+}
+
+.email {
+    display: flex;
+    align-items: center; 
+    margin-bottom: 8px;
+}
+
+.email::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: aliceblue;
+    background-image: url(./svg/icons8-почта-48.png);
+}
+
+.linkedin {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.linkedin::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: aliceblue;
+    background-image: url(./svg/icons8-обеденные-кругом-48.png);
+}
+
+.git-hub {
+    display: flex;
+    align-items: center;
+}
+
+.git-hub::before {
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 23px;
+    height: 23px;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: aliceblue;
+    background-image: url(./svg/icons8-github-30.png);
 }
 
 /* contact-section */
-.contact-section-type{
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 24px;
-    margin-right: 7px;
-    color: #fff;
-
-}
 .contact-section-link{
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #565E6A;
+    color: #d1cbe3;
+    margin-left: 5px;
 }
 
 /* tech skils sektion */
@@ -200,7 +303,7 @@ padding-left: 15px;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #9DA1A8;
+    color: #d1cbe3;
 }
 
 .soft-skils-item{
@@ -212,5 +315,5 @@ padding-left: 15px;
     font-weight: normal;
     font-size: 14px;
     line-height: 24px;
-    color: #9DA1A8;
+    color: #d1cbe3;
 }
