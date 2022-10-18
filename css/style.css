@@ -31,7 +31,8 @@ img {
 
 /* my content */
 .my-container-info{
-    padding: 70px 70px; 
+    padding: 45px 60px;
+    width: 770px;
 }
 
 .front-deloveloper {
@@ -66,7 +67,7 @@ img {
     font-size: 22px;
     line-height: 27px;
     color: black;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
 }
 
 .my-projects-sections {
@@ -95,7 +96,6 @@ font-weight: normal;
 font-size: 12px;
 line-height: 15px;
 color: #A8A8A8;
-margin: 0 0 10px 0;
 }    
 
 .my-work-experience-divider{
@@ -116,7 +116,7 @@ padding-left: 15px;
 }
 
 .my-work-experience-compani3{
-    margin: 0 15px 0 0;
+    margin-bottom: 5px;
 }
 
 .my-projects{
@@ -125,6 +125,7 @@ padding-left: 15px;
     font-size: 22px;
     line-height: 27px;
     color: black;
+    margin-bottom: 10px;
 }
 
 .my-enumeration{
@@ -172,11 +173,23 @@ padding-left: 15px;
     box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
     }
 
+.my-education{
+    padding-top: 50px;
+}
+
+.my-education-title{
+    margin-bottom: 5px;
+    color: #FB6D3A;
+}
+
+.my-education-school{
+    padding-bottom: 5px;
+}
 
 /* sidebar sections */
 .sidbar-sections{
     background-color: #1E2939;
-    width: 380px;
+    width: 310px;
     padding-top: 20px;
 
 }
