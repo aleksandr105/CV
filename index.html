@@ -18,6 +18,12 @@
     <div class="main-container">
       <!-- Main container informacion -->
       <div class="my-container-info">
+        <p class="select-title">Language</p>
+        <select id="language-select" class="select">
+          <option value="en">English</option>
+          <option value="pl">Polish</option>
+          <option value="ua">Ukrainian</option>
+        </select>
         <!-- About me sektion -->
         <div class="about-me-sektion">
           <h1 class="my-name">Oleksandr Shcherbyna</h1>
@@ -50,7 +56,7 @@
                 >Github Link</a
               >
               <p class="project1-text">[HTML5, CSS3, JS, SASS]</p>
-              <p class="project1-text">
+              <p class="project1-text webStudioLanguage">
                 This project was developed personally by me during a training
                 course on HTML technology and CSS. The site is adapted for
                 mobile devices.
@@ -72,7 +78,7 @@
               <p class="project1-text">
                 [HTML5, CSS3, JS, SASS, WebPack, REST API, NPM]
               </p>
-              <p class="project1-text">
+              <p class="project1-text filmotekaLanguage">
                 About project: This is a team project in the creation of which 7
                 developers took part. This app is for searching and receiving
                 information about the film with the possibility of viewing
@@ -97,7 +103,7 @@
                 [HTML5, CSS3, React.js, React router, Redux Toolkit, Redux
                 persist, Redux thunk]
               </p>
-              <p class="project1-text">
+              <p class="project1-text phoneBookLanguage">
                 This project was developed by me personally while studying on a
                 course with REACT. The application is adapted for mobile
                 devices. User registration is also implemented.
@@ -108,20 +114,20 @@
 
         <!--My work Experience-->
         <div class="my-work-experience">
-          <h3 class="my-projects">WORK EXPERIENCE</h3>
+          <h3 class="my-projects myWork">WORK EXPERIENCE</h3>
 
           <!--My compani 3-->
           <div class="my-work-experience-compani3">
             <h4 class="my-work-experience-compani">InPost sp. z o.o.</h4>
-            <p class="my-work-experience-position">Сourier</p>
-            <p class="my-work-experience-time">
+            <p class="my-work-experience-position courier">Сourier</p>
+            <p class="my-work-experience-time courierTime">
               September 2019 - September 2022<span> | </span> Poland
             </p>
             <ul class="my-work-experience-duties1">
-              <li class="my-work-experience-duties">
+              <li class="my-work-experience-duties firstDutiesCourier">
                 Delivery and packing of parcels to parcel boxes.
               </li>
-              <li class="my-work-experience-duties">
+              <li class="my-work-experience-duties secondDutiesCourier">
                 Careful handling of parcels.
               </li>
             </ul>
@@ -129,17 +135,19 @@
 
           <!--My compani 2-->
           <div>
-            <h4 class="my-work-experience-compani">Ukrainian railway</h4>
-            <p class="my-work-experience-position">The driver</p>
-            <p class="my-work-experience-time">
+            <h4 class="my-work-experience-compani workRailway">
+              Ukrainian railway
+            </h4>
+            <p class="my-work-experience-position railway">The driver</p>
+            <p class="my-work-experience-time railwayTime">
               February 2018 - August 2019 <span> | </span>Ukrain
             </p>
             <ul class="my-work-experience-duties1">
-              <li class="my-work-experience-duties">
+              <li class="my-work-experience-duties firstDutiesRailway">
                 During railway accidents, rapid response and delivery of the
                 railway management to the scene of the accident.
               </li>
-              <li class="my-work-experience-duties">
+              <li class="my-work-experience-duties secondDutiesRailway">
                 Keeping the car and driver's rest room clean.
               </li>
             </ul>
@@ -147,30 +155,36 @@
         </div>
         <!--My Education-->
         <div class="my-education">
-          <h3 class="my-projects">Education</h3>
+          <h3 class="my-projects education">Education</h3>
           <div class="my-education-school">
             <h4 class="my-education-title">Go IT academy</h4>
             <h5>Full Stack Developer "online"</h5>
-            <p class="my-education-time">
+            <p class="my-education-time goIt">
               August 2021 - for now <span>|</span> Ukrain
             </p>
           </div>
           <div>
-            <h4 class="my-education-title">
+            <h4 class="my-education-title educationTitle">
               Dnipropetrovsk Industrial Technical School
             </h4>
-            <h5>Installation and operation of electrical equipment</h5>
-            <p class="my-education-time">
+            <h5 class="technical-education">
+              Installation and operation of electrical equipment
+            </h5>
+            <p class="my-education-time time-electrical">
               September 2002 - June 2005 <span>|</span> Ukrain
             </p>
           </div>
         </div>
+        <p class="klauzula">
+          Wyrażam zgodę na przetwarzanie moich danych osobowych w celu
+          prowadzenia rekrutacji na aplikowane przeze mnie stanowisko.
+        </p>
       </div>
 
       <!--My Sidebar-->
       <aside class="sidbar-sections">
         <img
-          src="img/IMG_20221021_163841.jpg"
+          src="img/IMG_20221021_163507.jpg"
           alt="my photo"
           class="my-photo"
         />
@@ -226,6 +240,9 @@
             </li>
             <li class="tech-skils-item">
               <span class="tech-skils-item-text">React.js</span>
+            </li>
+            <li class="tech-skils-item">
+              <span class="tech-skils-item-text">Node.js</span>
             </li>
             <li class="tech-skils-item">
               <span class="tech-skils-item-text">React router</span>
@@ -302,5 +319,6 @@
         </div>
       </aside>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

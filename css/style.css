@@ -378,3 +378,26 @@ align-items: center;
     /* color: #d1cbe3; */
 }
 
+
+.select{
+    width: 90px;
+    height: 25px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+.select-title {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.about-me-sektion{
+    margin-top: 20px;
+}
+
+.klauzula{
+    margin-top: 30px;
+    font-size: 12px;
+}
