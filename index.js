@@ -127,7 +127,7 @@ const translations = {
 
 const changeLanguage = () => {
   // const language = languageSelect.value;
-  const translation = translations.en;
+  const translation = translations.pl;
   myName.textContent = translation.name;
   myInfo.textContent = translation.summaryText;
   // selectTitle.textContent = translation.selectTitle;
