@@ -1,4 +1,4 @@
-const languageSelect = document.getElementById("language-select");
+// const languageSelect = document.getElementById("language-select");
 const myName = document.querySelector(".my-name");
 const myInfo = document.querySelector(".my-info");
 const selectTitle = document.querySelector(".select-title");
@@ -126,11 +126,11 @@ const translations = {
 };
 
 const changeLanguage = () => {
-  const language = languageSelect.value;
-  const translation = translations[language];
+  // const language = languageSelect.value;
+  const translation = translations.en;
   myName.textContent = translation.name;
   myInfo.textContent = translation.summaryText;
-  selectTitle.textContent = translation.selectTitle;
+  // selectTitle.textContent = translation.selectTitle;
   titleSummary.textContent = translation.titleSummary.toUpperCase();
   myProjects.textContent = translation.myProjects.toUpperCase();
   webStudioLanguage.textContent = translation.webStudioLanguage;
@@ -156,4 +156,4 @@ const changeLanguage = () => {
 
 changeLanguage();
 
-languageSelect.addEventListener("change", changeLanguage);
+// languageSelect.addEventListener("change", changeLanguage);
