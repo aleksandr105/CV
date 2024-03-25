@@ -1,4 +1,4 @@
-const languageSelect = document.getElementById("language-select");
+// const languageSelect = document.getElementById("language-select");
 const myName = document.querySelector(".my-name");
 const myInfo = document.querySelector(".my-info");
 const selectTitle = document.querySelector(".select-title");
@@ -28,12 +28,12 @@ const translations = {
   en: {
     name: "Oleksandr Shcherbyna",
     summaryText:
-      "I am a beginner front-end developer. I have a year of non-commercial work. I have experience working in a team on educational projects. I am willing to learn and develop technical skills and work in a team, of more educated developers to benefit the team and the company.",
+      "I am a beginner front-end developer with two years of non-commercial experience. I have worked in a team on educational projects. I am eager to learn and develop technical skills, and I am excited about the opportunity to work alongside more experienced developers to contribute to the team and the company.",
     selectTitle: "Language",
     titleSummary: "SUMMARY",
     myProjects: "PROJECT EXPERIENCE",
     webStudioLanguage:
-      "This project was developed personally by me during a training course on HTML technology and CSS. The site is adapted for mobile devices.",
+      "The LEARN ENGLISH WORDS project is an innovative application developed using the React library, aimed at helping people learn English with enthusiasm and efficiency. The main idea of the application is to find matching pairs of words in English, making the learning process interesting and engaging. One of the key features of the application is its multilingual capability - it is available in three languages: Ukrainian, Polish, and Russian. Users also have the ability to create their own word databases by adding them to their personal dictionary. This feature is available only to registered users, with email confirmation required upon registration. Registration and authentication are done using a refresh token or through a Google account. The application also provides the option to listen to the pronunciation of English words at a customizable speed, which helps improve auditory perception and pronunciation. LEARN ENGLISH WORDS is optimized for mobile devices, ensuring convenience in any situation. However, it should be noted that the application has been tested only in the Google Chrome browser. While the application is still in development, its core functionality is already operational. Future plans include expanding the database to include 5000-8000 words, covering the most commonly used words in the English language.",
     filmotekaLanguage:
       "About the project: This is a team project in the creation of which 7 developers took part. This app is for searching and receiving information about the film with the possibility of viewing trailers. My task was to implement the display of a collection of movies on the pages, as well as their stylization.",
     phoneBookLanguage:
@@ -126,11 +126,11 @@ const translations = {
 };
 
 const changeLanguage = () => {
-  const language = languageSelect.value;
-  const translation = translations[language];
+  // const language = languageSelect.value;
+  const translation = translations.en;
   myName.textContent = translation.name;
   myInfo.textContent = translation.summaryText;
-  selectTitle.textContent = translation.selectTitle;
+  // selectTitle.textContent = translation.selectTitle;
   titleSummary.textContent = translation.titleSummary.toUpperCase();
   myProjects.textContent = translation.myProjects.toUpperCase();
   webStudioLanguage.textContent = translation.webStudioLanguage;
@@ -156,4 +156,4 @@ const changeLanguage = () => {
 
 changeLanguage();
 
-languageSelect.addEventListener("change", changeLanguage);
+// languageSelect.addEventListener("change", changeLanguage);
